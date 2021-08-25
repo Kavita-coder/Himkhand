@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/activity_create_account"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:elevation="5dp"
+    android:background="@drawable/login_bg"
+    tools:context=".Auth.CreateUserAccount">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CC221C1C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/arrow_back" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/or"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+            <ImageView
+                android:id="@+id/img_ind_flag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/flag_india" />
+
+            <TextView
+                android:id="@+id/tv_song"
+                android:layout_width="33dp"
+                android:layout_height="22dp"
+                android:layout_toRightOf="@+id/img_ind_flag"
+                android:fontFamily="@font/poppins"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="+91"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edt_continue_with_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_song"
+                android:fontFamily="@font/poppins"
+                android:hint="@string/continue_with_mobile_number"
+                android:textColor="@color/white"
+                android:inputType="number"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_create_user_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Skip"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins"
+        android:padding="5dp"
+        android:text="@string/terms_conditions"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/himkhand_logo" />
+
+    <android.widget.Button
+        android:id="@+id/btn_create_user_account"
+        android:layout_width="295dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="300dp"
+        android:textAllCaps="false"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/create_account"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/btn_sign_in_fb_createusr"
+        android:layout_width="295dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="40dp"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_button1"
+        android:drawableLeft="@drawable/fb"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/sign_in_with_facebook"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_create_user_account" />
+
+    <android.widget.Button
+        android:id="@+id/btn_sign_in_google_createusr"
+        android:layout_width="295dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_button1"
+        android:drawableLeft="@drawable/google"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:paddingRight="5dp"
+        android:text="@string/sign_in_with_google"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sign_in_fb_createusr" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

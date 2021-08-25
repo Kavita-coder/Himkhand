@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2140625" />
+        <entry key="app/src/main/res/drawable/arrow_back.xml" value="0.21076923076923076" />
+        <entry key="app/src/main/res/drawable/bg_gradient.xml" value="0.17222222222222222" />
+        <entry key="app/src/main/res/drawable/custom_btn_bg.xml" value="0.2140625" />
+        <entry key="app/src/main/res/drawable/custom_dialog_background_layout.xml" value="0.2140625" />
+        <entry key="app/src/main/res/drawable/custom_edittext_background_search.xml" value="0.14444444444444443" />
+        <entry key="app/src/main/res/drawable/edittext_search_bg.xml" value="0.1925925925925926" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2140625" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.1638888888888889" />
+        <entry key="app/src/main/res/drawable/podcast_gradient.xml" value="0.19907407407407407" />
+        <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.21076923076923076" />
+        <entry key="app/src/main/res/drawable/rounded_button1.xml" value="0.21076923076923076" />
+        <entry key="app/src/main/res/drawable/rounded_img_selector.xml" value="0.2037037037037037" />
+        <entry key="app/src/main/res/drawable/search_btn_bg.xml" value="0.1925925925925926" />
+        <entry key="app/src/main/res/drawable/shadow_podcast.xml" value="0.20925925925925926" />
+        <entry key="app/src/main/res/font/himkhand_splash.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/font/splash_font.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/activity_artist_story.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_artists.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_choose_artists.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/layout/activity_choose_artists2.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_create_user_account.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_google_sign_in.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_set_new_password.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/artists_list.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/create_new_playlist.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_discover.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_mylibrary.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/home_story_list.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/horizontal_recycler_layout.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/item_fresh_hits_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_horizontal_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/item_podcast_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_podcast_layout_11.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/item_popular_artist.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/item_recom_radio.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/item_story.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/item_story1.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/layout_dialog.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/layout_item_story.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/layout_trending_songs_list.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/podcast_recycler_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/popular_artists.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/popular_recycler_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/recent_songs_list.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/recycler_choose_artist.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/story_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/story_singer_bottom_sheet.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/test_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/trending_songs_list.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21076923076923076" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

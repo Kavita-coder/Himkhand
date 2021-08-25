@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/songPicture"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/trending1"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/songName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="Oxygen"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/songPicture"
+        app:layout_constraintTop_toTopOf="@+id/songPicture" />
+
+    <TextView
+        android:id="@+id/singerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Winon Oak and Robin Schulz"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="@+id/songName"
+        app:layout_constraintTop_toBottomOf="@+id/songName" />
+
+    <ImageView
+        android:id="@+id/songPicture1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/login_bg"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/songPicture" />
+
+    <TextView
+        android:id="@+id/songName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="Wildlands"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/songPicture1"
+        app:layout_constraintTop_toTopOf="@+id/songPicture1" />
+
+    <TextView
+        android:id="@+id/singerName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="ELYAS"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="@+id/songName1"
+        app:layout_constraintTop_toBottomOf="@+id/songName1" />
+
+    <ImageView
+        android:id="@+id/songPicture2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/trending3"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/songPicture1" />
+
+    <TextView
+        android:id="@+id/songName2"
+        android:layout_width="52dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/poppins"
+        android:text="Letters"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/songPicture2"
+        app:layout_constraintTop_toTopOf="@+id/songPicture2" />
+
+    <TextView
+        android:id="@+id/singerName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Lucas and Steve"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="@+id/songName2"
+        app:layout_constraintTop_toBottomOf="@+id/songName2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

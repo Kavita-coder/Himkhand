@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1097868719477",
+    "project_id": "himk-a50ce",
+    "storage_bucket": "himk-a50ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097868719477:android:8a41a87b02d9e982954f3c",
+        "android_client_info": {
+          "package_name": "com.example.himkhand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097868719477-h36tdsglk22gsmei5pl553m0015ogf9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgXi8EI279gLuAHoRKDhFP63oDrDdQIu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097868719477-h36tdsglk22gsmei5pl553m0015ogf9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

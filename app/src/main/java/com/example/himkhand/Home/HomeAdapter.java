@@ -87,7 +87,6 @@ public class HomeAdapter extends RecyclerView.Adapter {
     @Override
     public void onBindViewHolder(@NonNull @NotNull RecyclerView.ViewHolder holder, int position) {
 
-
         switch (homeModelArrayList.get(position).getType()) {
             case Home_Model.STORY_LAYOUT:
 
@@ -95,6 +94,8 @@ public class HomeAdapter extends RecyclerView.Adapter {
                 ((StoryViewHolder) holder).storyRecyclerView.setLayoutManager(new LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false));
                 ((StoryViewHolder) holder).storyRecyclerView.setAdapter(adapter);
                 adapter.notifyDataSetChanged();
+
+
                 break;
 
             case Home_Model.HORIZONTAL_LAYOUT:

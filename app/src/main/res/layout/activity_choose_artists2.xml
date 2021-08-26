@@ -8,11 +8,10 @@
     tools:context=".ChooseArtists2">
 
 
-
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="300dp"
         android:scaleType="centerCrop"
         android:src="@drawable/login_bg"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,10 +23,11 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="156dp"
-        android:text="@string/dexys"
-        android:textSize="25sp"
+        android:layout_marginTop="140dp"
         android:fontFamily="@font/poppins"
+        android:text="@string/dexys"
+        android:textColor="@color/white"
+        android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,6 +39,8 @@
         android:layout_height="wrap_content"
         android:text="@string/_275300_monthly_listeners"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="14sp"
+        android:textColor="@color/light_grey"
         android:fontFamily="@font/poppins"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
@@ -49,28 +51,31 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
-        android:padding="20dp"
+        android:padding="10dp"
+        android:background="@drawable/artist_rectangle_bg"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/arrow_back" />
+        app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="@string/top_songs"
-        android:textSize="18sp"
         android:fontFamily="@font/poppins"
+        android:text="@string/top_songs"
+        android:textColor="@color/white"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_play" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_artist"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_gradient"
     tools:context=".ArtistStory">
 
 
@@ -13,47 +12,120 @@
         android:layout_height="match_parent">
 
 
-    <VideoView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
-    <ImageView
-        android:id="@+id/image_heart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65999997"
-        app:srcCompat="@drawable/arrow_back" />
-
-
-    <ImageView
-        android:id="@+id/image_follow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/image_heart"
-        app:layout_constraintTop_toBottomOf="@+id/image_heart"
-        app:srcCompat="@drawable/arrow_back" />
+        <ImageView
+            android:id="@+id/artist_story_like"
+            android:layout_width="25dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.59000003"
+            app:srcCompat="@drawable/heart" />
 
 
-    <ImageView
-        android:id="@+id/image_settings"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_follow"
-        app:srcCompat="@drawable/settings_verticle" />
+        <ImageView
+            android:id="@+id/artist_story_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_followers"
+            app:layout_constraintStart_toStartOf="@+id/tv_followers"
+            app:layout_constraintTop_toBottomOf="@+id/tv_followers"
+            app:srcCompat="@drawable/ic_message" />
+
+        <ImageView
+            android:id="@+id/image_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/artist_story_msg"
+            app:layout_constraintVertical_bias="0.74"
+            app:srcCompat="@drawable/settings_verticle" />
+
+        <ImageView
+            android:id="@+id/artist_story_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_msg"
+            app:layout_constraintStart_toStartOf="@+id/tv_msg"
+            app:layout_constraintTop_toBottomOf="@+id/tv_msg"
+            app:srcCompat="@drawable/ic_forward" />
+
+
+        <TextView
+            android:id="@+id/tv_followers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_14_9k"
+            app:layout_constraintEnd_toEndOf="@+id/artist_story_like"
+            app:layout_constraintStart_toStartOf="@+id/artist_story_like"
+            app:layout_constraintTop_toBottomOf="@+id/artist_story_like" />
+
+        <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_269"
+            app:layout_constraintEnd_toEndOf="@+id/artist_story_msg"
+            app:layout_constraintHorizontal_bias="0.764"
+            app:layout_constraintStart_toStartOf="@+id/artist_story_msg"
+            app:layout_constraintTop_toBottomOf="@+id/artist_story_msg" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_story"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:cropToPadding="true"
+            android:elevation="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.81" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/ad_sheck_follow"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins"
+            app:layout_constraintBottom_toBottomOf="@+id/img_story"
+            app:layout_constraintStart_toEndOf="@+id/img_story"
+            app:layout_constraintTop_toTopOf="@+id/img_story" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/contrary_to_popular_belief_lorem_ipsum_is_not_simply_random_2000_years_old"
+            android:textAlignment="textStart"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView11"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

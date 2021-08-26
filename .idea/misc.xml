@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2140625" />
         <entry key="app/src/main/res/drawable/arrow_back.xml" value="0.21076923076923076" />
+        <entry key="app/src/main/res/drawable/artist_rectangle_bg.xml" value="0.21076923076923076" />
         <entry key="app/src/main/res/drawable/bg_gradient.xml" value="0.17222222222222222" />
         <entry key="app/src/main/res/drawable/custom_btn_bg.xml" value="0.2140625" />
         <entry key="app/src/main/res/drawable/custom_dialog_background_layout.xml" value="0.2140625" />
@@ -17,6 +18,7 @@
         <entry key="app/src/main/res/drawable/rounded_button1.xml" value="0.21076923076923076" />
         <entry key="app/src/main/res/drawable/rounded_img_selector.xml" value="0.2037037037037037" />
         <entry key="app/src/main/res/drawable/search_btn_bg.xml" value="0.1925925925925926" />
+        <entry key="app/src/main/res/drawable/settings_verticle.xml" value="0.1638888888888889" />
         <entry key="app/src/main/res/drawable/shadow_podcast.xml" value="0.20925925925925926" />
         <entry key="app/src/main/res/font/himkhand_splash.xml" value="0.21666666666666667" />
         <entry key="app/src/main/res/font/splash_font.xml" value="0.21666666666666667" />
@@ -36,16 +38,20 @@
         <entry key="app/src/main/res/layout/artists_list.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/create_new_playlist.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/exo_player_test.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/exoplayertest.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/fragment_discover.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/fragment_mylibrary.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/home_story_list.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/horizontal_recycler_layout.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/item_choose_artist_play.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_fresh_hits_layout.xml" value="0.33" />
         <entry key="app/src/main/res/layout/item_horizontal_layout.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/item_podcast_layout.xml" value="0.33" />
         <entry key="app/src/main/res/layout/item_podcast_layout_11.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/item_podcast_layout_test.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_popular_artist.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/item_recom_radio.xml" value="0.22" />
         <entry key="app/src/main/res/layout/item_story.xml" value="0.22" />

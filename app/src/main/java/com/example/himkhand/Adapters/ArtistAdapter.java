@@ -29,7 +29,7 @@ public class ArtistAdapter extends RecyclerView.Adapter<ArtistAdapter.ViewHolder
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.recycler_choose_artist,parent,false);
+                .inflate(R.layout.item_choose_artist_play,parent,false);
         return new ViewHolder(view);
     }
 

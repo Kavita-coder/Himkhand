@@ -33,18 +33,19 @@ public class ChooseArtists extends AppCompatActivity implements ChooseArtistList
         tv_skip = findViewById(R.id.tvSkip);
         imgback = findViewById(R.id.image_back);
         recyclerView = findViewById(R.id.recyclerview);
+
         ArrayList<ModelChooseArtists> chooseArtists = new ArrayList<>();
 
-        chooseArtists.add(new ModelChooseArtists(R.drawable.login_bg, "Shkaira1"));
-        chooseArtists.add(new ModelChooseArtists(R.drawable.login_bg, "Shkaira2"));
+        chooseArtists.add(new ModelChooseArtists(R.drawable.trending1, "Shkaira1"));
+        chooseArtists.add(new ModelChooseArtists(R.drawable.trending3, "Shkaira2"));
         chooseArtists.add(new ModelChooseArtists(R.drawable.login_bg, "Shkaira3"));
-        chooseArtists.add(new ModelChooseArtists(R.drawable.login_bg, "Shkaira4"));
-        chooseArtists.add(new ModelChooseArtists(R.drawable.login_bg, "Shkaira5"));
-        chooseArtists.add(new ModelChooseArtists(R.drawable.login_bg, "Shkaira5"));
-        chooseArtists.add(new ModelChooseArtists(R.drawable.login_bg, "Shkaira5"));
-        chooseArtists.add(new ModelChooseArtists(R.drawable.login_bg, "Shkaira5"));
-        chooseArtists.add(new ModelChooseArtists(R.drawable.login_bg, "Shkaira5"));
-        chooseArtists.add(new ModelChooseArtists(R.drawable.login_bg, "Shkaira5"));
+        chooseArtists.add(new ModelChooseArtists(R.drawable.trending4, "Shkaira4"));
+        chooseArtists.add(new ModelChooseArtists(R.drawable.trending2, "Shkaira5"));
+        chooseArtists.add(new ModelChooseArtists(R.drawable.trending1, "Shkaira1"));
+        chooseArtists.add(new ModelChooseArtists(R.drawable.trending3, "Shkaira2"));
+        chooseArtists.add(new ModelChooseArtists(R.drawable.login_bg, "Shkaira3"));
+        chooseArtists.add(new ModelChooseArtists(R.drawable.trending4, "Shkaira4"));
+        chooseArtists.add(new ModelChooseArtists(R.drawable.trending2, "Shkaira5"));
 
         adapterChooseArtist = new AdapterChooseArtist(this, chooseArtists);
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 4);
